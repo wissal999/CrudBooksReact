@@ -11,7 +11,7 @@ function Book() {
 
  
   
-const [books,setBooks]=useState([{id:1,name:"book one",actor:"act 1",category:"drama"},{id:2,name:"book two",actor:"act 2",category:"action"},{id:3,name:"book three",actor:"act 3",category:"action"}])
+const [books,setBooks]=useState([{id:1,name:"book 1",actor:"actor 1",category:"cat 1"},{id:2,name:"book 2",actor:"actor 2",category:"cat1"},{id:3,name:"book 3",actor:"actor 3",category:"cat 3"},{id:4,name:"book 4",actor:"actor 4",category:"cat 4"}])
 const [idtoupdate,setidtoupdate]=useState(null);
   return (
     <div style={{display:'flex',justifyContent:'center',flexDirection:'column',gap:20}}>
